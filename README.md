@@ -43,3 +43,21 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/YOUR_USERNAME/audio-condition-monitoring-framework.git
 cd audio-condition-monitoring-framework
+```
+
+### 2. Place the Dataset
+
+The analysis requires the custom_industrial_dataset_127features.csv file. Due to its size, it is not included in this repository. Please place the file inside the data/ directory.
+
+### 3. Install Dependencies
+
+It is recommended to use a virtual environment. Install all required libraries using the requirements.txt file:
+```bash
+pip install -r requirements.txt
+```
+### 4. Run the Notebooks
+
+The analysis is contained in two Jupyter Notebooks, which should be run in order:
+1. 1_Model_Comparison_Analysis.ipynb: This notebook contains the core logic for loading the data, training all six models, evaluating their performance, and generating the primary results tables.
+2. 2_Visualization_of_Results.ipynb: This notebook takes the results from the analysis to generate the plots and figures presented in the paper.
+
