@@ -21,9 +21,9 @@ This repository contains the Jupyter Notebooks and supporting code for the paper
 
 Our framework systematically evaluates six machine learning algorithms across multiple performance dimensions. The ensemble method consistently demonstrates superior accuracy and robustness to noise.
 
-| Overall Performance (Accuracy, Precision, Recall) | Noise Robustness Analysis (F1-Score) |
+| Overall Performance (F1-Score) | Noise Robustness Analysis (F1-Score) |
 | :---: | :---: |
-| <img src="outputs/performance_metrics.png" width="400"> | <img src="outputs/Noise Robustness F1 Scores.png" width="400"> |
+| <img src="overall_performance_comparison.jpg" width="400"> | <img src="noise_robustness.jpg" width="400"> |
 
 ---
 
@@ -31,7 +31,7 @@ Our framework systematically evaluates six machine learning algorithms across mu
 
 This project proposes and implements a complete, end-to-end pipeline for the fair and reproducible benchmarking of classification algorithms for audio-based fault detection.
 
-![Framework Flowchart](outputs/framework_flowchart.png)
+![Framework Flowchart](evaluation-framework.jpg)
 
 ---
 
