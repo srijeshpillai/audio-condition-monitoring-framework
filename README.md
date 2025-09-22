@@ -57,6 +57,5 @@ pip install -r requirements.txt
 ```
 ### 4. Run the Notebooks
 
-The analysis is contained in the below Jupyter Notebook:
-model_analysis.ipynb: This notebook contains the core logic for loading the data, training all six models, evaluating their performance, and generating the primary results tables.
+The analysis is contained in the Jupyter Notebook: model_analysis.ipynb. This notebook contains the core logic for loading the data, training all six models, evaluating their performance, and generating the primary results tables.
 
