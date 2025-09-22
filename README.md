@@ -57,7 +57,6 @@ pip install -r requirements.txt
 ```
 ### 4. Run the Notebooks
 
-The analysis is contained in two Jupyter Notebooks, which should be run in order:
-1. 1_Model_Comparison_Analysis.ipynb: This notebook contains the core logic for loading the data, training all six models, evaluating their performance, and generating the primary results tables.
-2. 2_Visualization_of_Results.ipynb: This notebook takes the results from the analysis to generate the plots and figures presented in the paper.
+The analysis is contained in the below Jupyter Notebook:
+model_analysis.ipynb: This notebook contains the core logic for loading the data, training all six models, evaluating their performance, and generating the primary results tables.
 
